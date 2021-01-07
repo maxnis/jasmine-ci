@@ -1,0 +1,27 @@
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" charset="utf-8">
+        <title>Simple calculator</title>
+        <link rel="stylesheet" href="style.css">
+        <script src="calculator.js"></script>
+        <script src="main.js"></script>
+        <script>
+            window.onload = function() { 
+                showVersion();
+            }
+        </script>
+    </head>
+    <body>
+        <h1 class="title">Simple Calculator</h1>
+
+        <input type="text" onchange="calculate(this.value)" 
+            placeholder="Enter operation" value="1 + 2"
+            title="calculator">
+        <div class="result-container">
+            <div class="title">Result</div>
+            <span id='result'></span>
+        </div>
+
+        <div class="version">Version: <span id="version"></span></div>
+    </body>
+</html>

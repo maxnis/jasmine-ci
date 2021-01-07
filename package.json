@@ -1,0 +1,26 @@
+{
+  "name": "calculator",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "devDependencies": {
+    "istanbul": "^0.4.5",
+    "jasmine-core": "^3.6.0",
+    "karma": "^5.2.3",
+    "karma-chrome-launcher": "^3.1.0",
+    "karma-cli": "^2.0.0",
+    "karma-coverage": "^2.0.3",
+    "karma-jasmine": "^4.0.1",
+    "karma-jasmine-matchers": "^4.0.2",
+    "puppeteer": "^5.5.0"
+  },
+  "dependencies": {},
+  "scripts": {
+    "test": "karma start"
+  },
+  "author": "Max",
+  "license": "ISC"
+}
